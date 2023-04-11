@@ -47,6 +47,9 @@ L.CanvasLayer.VectorFieldAnim = L.CanvasLayer.Field.extend({
         let ctx = this._getDrawingContext();
         let paths = this._prepareParticlePaths();
 
+        // in case we already have a animation running
+        this._stopAnimation();
+
         this.timer = d3.timer(function() {
             _moveParticles();
             _drawParticles();

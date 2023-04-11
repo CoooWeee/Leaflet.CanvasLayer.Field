@@ -1,13 +1,13 @@
 {
     "name": "ih-leaflet-canvaslayer-field",
-    "version": "1.5.3",
+    "version": "1.5.4",
     "description": "A set of layers using canvas to draw ASCIIGrid or GeoTIFF files. This includes a basic raster layer (*ScalaField*) and an animated layer for vector fields, such as wind or currents (*VectorFieldAnim*)",
     "main": "index.js",
     "dependencies": {
-        "@turf/inside": "^4.7.3",
-        "chroma-js": "^2.1.0",
-        "d3": "4.9.1",
-        "geotiff": "0.4.1",
+        "@turf/inside": "^5.0.0",
+        "chroma-js": "^2.4.2",
+        "d3": "7.8.4",
+        "geotiff": "2.0.7",
         "leaflet": ">=1.0.3",
         "npm": "^6.14.7"
     },

@@ -83,3 +83,7 @@
 * Remove chroma-js global dependency
 * Move project to new npm package (ih-leaflet-canvaslayer-field)
 * Update docs & dependencies
+
+#v1.5.4
+
+* Fix duplicate animation
