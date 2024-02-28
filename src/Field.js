@@ -1,5 +1,5 @@
 import Cell from './Cell';
-import inside from '@turf/inside';
+import inside from '@turf/boolean-point-in-polygon';
 
 /**
  *  Abstract class for a set of values (Vector | Scalar)
