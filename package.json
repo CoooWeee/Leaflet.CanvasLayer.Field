@@ -1,6 +1,6 @@
 {
     "name": "ih-leaflet-canvaslayer-field",
-    "version": "1.5.9",
+    "version": "1.5.10",
     "description": "A set of layers using canvas to draw ASCIIGrid or GeoTIFF files. This includes a basic raster layer (*ScalaField*) and an animated layer for vector fields, such as wind or currents (*VectorFieldAnim*)",
     "main": "index.js",
     "dependencies": {
@@ -21,7 +21,7 @@
         "eslint-plugin-import": "^2.31.0",
         "eslint-webpack": "^3.12.2",
         "eslint-webpack-plugin": "^4.2.0",
-        "fs-extra": "^11.2.0",
+        "fs-extra": "^11.3.0",
         "jasmine": "^5.5.0",
         "jasmine-core": "^5.5.0",
         "karma": "^6.4.4",
