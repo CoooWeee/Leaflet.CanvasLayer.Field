@@ -30,7 +30,14 @@ const config = {
         ]
     },
     plugins: [
-        new ESLintPlugin(),
+        new ESLintPlugin({
+          context: path.resolve(__dirname),
+          extensions: ['js'],
+          overrideConfigFile: path.resolve(__dirname, '.eslintrc.js'),
+          emitError: true,
+          emitWarning: true,
+          failOnError: false
+        }),
         new WebpackShellPluginNext({
             onBuildStart: ['echo "Webpack Start"'],
             onBuildEnd: ['node copy-to-examples.js']
